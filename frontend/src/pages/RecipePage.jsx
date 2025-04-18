@@ -10,7 +10,7 @@ const RecipePage = () => {
       <div className="bg-black bg-opacity-70 backdrop-blur-lg border border-orange-500 shadow-2xl rounded-2xl p-10 max-w-5xl w-full text-center">
         <h1 className="text-5xl font-extrabold text-orange-500 mb-10">🍲 Your Recipe</h1>
 
-        {recipe clear
+{recipe
         ? (
           <div className="grid gap-6">
             {recipe.recipeText.split(/(?<=[.!?])\s+/).map((sentence, index) => (
